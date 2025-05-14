@@ -100,14 +100,14 @@ public class frmMenu extends javax.swing.JFrame {
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
-        listaHabilitacion listaH = new listaHabilitacion();
+        frmListaHabilitacion listaH = new frmListaHabilitacion();
         this.panelInterno.add(listaH);
         listaH.setVisible(true);
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        listaHabilitacion frmEmplDe = new listaHabilitacion();
+        frmListaHabilitacion frmEmplDe = new frmListaHabilitacion();
         this.panelInterno.add(frmEmplDe);
         frmEmplDe.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
@@ -119,7 +119,7 @@ public class frmMenu extends javax.swing.JFrame {
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
-        frmMantNomina frmNom = new frmMantNomina();
+        frmMateriales frmNom = new frmMateriales();
         this.panelInterno.add(frmNom);
         frmNom.setVisible(true);
         

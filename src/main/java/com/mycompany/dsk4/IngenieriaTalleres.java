@@ -8,9 +8,10 @@ package com.mycompany.dsk4;
  *
  * @author oscar
  */
-public class Dsk4 {
+public class IngenieriaTalleres {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        frmMenu form =new frmMenu();
+        form.setVisible(true);
     }
 }

@@ -43,7 +43,7 @@
                               <Component id="btnCancelar" min="-2" pref="121" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -152,9 +152,9 @@
                           <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                           <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="18" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Component id="jComboBox6" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="93" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -209,9 +209,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtDescripcion">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="*"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
@@ -226,11 +223,37 @@
         <Component class="javax.swing.JComboBox" name="jComboBox1">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="30">
+                <StringItem index="0" value="Mdf 25mm"/>
+                <StringItem index="1" value="Mdf 16mm"/>
+                <StringItem index="2" value="Mdf 12mm"/>
+                <StringItem index="3" value="Mdf 9mm"/>
+                <StringItem index="4" value="Mdf 6mm"/>
+                <StringItem index="5" value="Mdf 3mm"/>
+                <StringItem index="6" value="Panelar 16mm"/>
+                <StringItem index="7" value="Triplay 16mm"/>
+                <StringItem index="8" value="Acrilico 12mm"/>
+                <StringItem index="9" value="Acrilico 9mm"/>
+                <StringItem index="10" value="Acrilico 6mm"/>
+                <StringItem index="11" value="Acrilico 3mm"/>
+                <StringItem index="12" value="Tabla de 3/4"/>
+                <StringItem index="13" value="Tablon de 1 1/2&quot;"/>
+                <StringItem index="14" value="Perfil 4x1 1/2"/>
+                <StringItem index="15" value="Perfil 3x3"/>
+                <StringItem index="16" value="Perfil 3x1 1/2"/>
+                <StringItem index="17" value="Perfil 2x2"/>
+                <StringItem index="18" value="Perfil 2x1"/>
+                <StringItem index="19" value="Perfil 2x1 1/2"/>
+                <StringItem index="20" value="Perfil 1 1/2x1 1/2&quot;"/>
+                <StringItem index="21" value="Perfil 1 1/2x1"/>
+                <StringItem index="22" value="Perfil 1 1/2&quot;x1/2"/>
+                <StringItem index="23" value="Perfil 1 1/2x3/4"/>
+                <StringItem index="24" value="Perfil 1 1/4x1 1/4"/>
+                <StringItem index="25" value="Perfil 1x1"/>
+                <StringItem index="26" value="Perfil 1x1/2&quot;"/>
+                <StringItem index="27" value="Perfil 1x3/4"/>
+                <StringItem index="28" value="Perfil 3/4x3/4"/>
+                <StringItem index="29" value="Perfil 7/8x7/8"/>
               </StringArray>
             </Property>
           </Properties>
@@ -241,11 +264,9 @@
         <Component class="javax.swing.JComboBox" name="jComboBox2">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="2">
+                <StringItem index="0" value="1"/>
+                <StringItem index="1" value="2"/>
               </StringArray>
             </Property>
           </Properties>
@@ -261,11 +282,12 @@
         <Component class="javax.swing.JComboBox" name="jComboBox3">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="5">
+                <StringItem index="0" value="Formaica"/>
+                <StringItem index="1" value="Natural"/>
+                <StringItem index="2" value="Melamina"/>
+                <StringItem index="3" value="Metal"/>
+                <StringItem index="4" value="Lamina"/>
               </StringArray>
             </Property>
           </Properties>
@@ -281,11 +303,15 @@
         <Component class="javax.swing.JComboBox" name="jComboBox4">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="8">
+                <StringItem index="0" value="Blanco"/>
+                <StringItem index="1" value="Negro"/>
+                <StringItem index="2" value="Chamoy"/>
+                <StringItem index="3" value="Portland Maple"/>
+                <StringItem index="4" value="Gris Folkstone"/>
+                <StringItem index="5" value="Solar Oak"/>
+                <StringItem index="6" value="Expresso Pear"/>
+                <StringItem index="7" value=""/>
               </StringArray>
             </Property>
           </Properties>
@@ -309,22 +335,13 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtLargo">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField1"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtAncho">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField2"/>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAnchoActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JTextField" name="txtEspesor">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField3"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
@@ -332,9 +349,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtCantidad">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField4"/>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCantidadActionPerformed"/>
           </Events>
@@ -345,9 +359,6 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtCantos">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jTextField5"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
@@ -357,11 +368,9 @@
         <Component class="javax.swing.JComboBox" name="jComboBox5">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="2">
+                <StringItem index="0" value="1"/>
+                <StringItem index="1" value="2"/>
               </StringArray>
             </Property>
           </Properties>
@@ -377,11 +386,9 @@
         <Component class="javax.swing.JComboBox" name="jComboBox6">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-              <StringArray count="4">
-                <StringItem index="0" value="Item 1"/>
-                <StringItem index="1" value="Item 2"/>
-                <StringItem index="2" value="Item 3"/>
-                <StringItem index="3" value="Item 4"/>
+              <StringArray count="2">
+                <StringItem index="0" value="1"/>
+                <StringItem index="1" value="2"/>
               </StringArray>
             </Property>
           </Properties>
@@ -415,10 +422,10 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" min="-2" pref="185" max="-2" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
                   <EmptySpace pref="10" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="175" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

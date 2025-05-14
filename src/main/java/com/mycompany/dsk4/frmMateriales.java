@@ -39,7 +39,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
  *
  * @author oscar
  */
-public class frmMantNomina extends javax.swing.JInternalFrame {
+public class frmMateriales extends javax.swing.JInternalFrame {
     private int fila;
     Object[] filas =new Object[6];
     javax.swing.table.DefaultTableModel modeloTabla=new javax.swing.table.DefaultTableModel();
@@ -48,7 +48,7 @@ public class frmMantNomina extends javax.swing.JInternalFrame {
     /**
      * Creates new form frmMantNomina
      */
-    public frmMantNomina() {
+    public frmMateriales() {
         initComponents();
         configurarModelo();
        
@@ -378,7 +378,7 @@ public class frmMantNomina extends javax.swing.JInternalFrame {
                PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("departamentos.pdf"));
 
                // Configurar encabezado y pie de página
-               frmMantEmpleados.HeaderFooter event = new frmMantEmpleados.HeaderFooter();
+               frmEmpleados.HeaderFooter event = new frmEmpleados.HeaderFooter();
                event.setHeader("Reporte de Departamentos"); // Encabezado general
                writer.setPageEvent(event);
 

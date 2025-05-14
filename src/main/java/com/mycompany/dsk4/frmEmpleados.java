@@ -40,7 +40,7 @@ import com.itextpdf.text.Rectangle;
  *
  * @author oscar
  */
-public class frmMantEmpleados extends javax.swing.JInternalFrame {
+public class frmEmpleados extends javax.swing.JInternalFrame {
     private int anyoActual,fila;
     Object[] filas =new Object[6];
     javax.swing.table.DefaultTableModel modeloTabla=new javax.swing.table.DefaultTableModel();
@@ -50,7 +50,7 @@ public class frmMantEmpleados extends javax.swing.JInternalFrame {
      * Creates new form frmMantEmpleados
      */
         
-    public frmMantEmpleados() {
+    public frmEmpleados() {
         initComponents();
         CargarAnyos();
         configurarModelo();

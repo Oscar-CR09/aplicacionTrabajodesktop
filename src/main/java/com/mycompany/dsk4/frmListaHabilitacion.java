@@ -36,7 +36,7 @@ import com.itextpdf.text.BaseColor;
  *
  * @author oscar
  */
-public class listaHabilitacion extends javax.swing.JInternalFrame {
+public class frmListaHabilitacion extends javax.swing.JInternalFrame {
     private int fila;
     Object[] filas =new Object[11];
     javax.swing.table.DefaultTableModel modeloTabla=new javax.swing.table.DefaultTableModel();
@@ -45,7 +45,7 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
     /**
      * Creates new form frmMantDepaEmpleados
      */
-    public listaHabilitacion() {
+    public frmListaHabilitacion() {
         initComponents();
         configurarModelo();
     }
@@ -100,23 +100,21 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
 
         jLabel1.setText("Descripción:");
 
-        txtDescripcion.setText("*");
-
         jLabel2.setText("Tipo de Material:");
 
         jLabel3.setText("Caras:");
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Mdf 25mm", "Mdf 16mm", "Mdf 12mm", "Mdf 9mm", "Mdf 6mm", "Mdf 3mm", "Panelar 16mm", "Triplay 16mm", "Acrilico 12mm", "Acrilico 9mm", "Acrilico 6mm", "Acrilico 3mm", "Tabla de 3/4", "Tablon de 1 1/2\"", "Perfil 4x1 1/2", "Perfil 3x3", "Perfil 3x1 1/2", "Perfil 2x2", "Perfil 2x1", "Perfil 2x1 1/2", "Perfil 1 1/2x1 1/2\"", "Perfil 1 1/2x1", "Perfil 1 1/2\"x1/2", "Perfil 1 1/2x3/4", "Perfil 1 1/4x1 1/4", "Perfil 1x1", "Perfil 1x1/2\"", "Perfil 1x3/4", "Perfil 3/4x3/4", "Perfil 7/8x7/8" }));
 
-        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2" }));
 
         jLabel4.setText("Estilo:");
 
-        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Formaica", "Natural", "Melamina", "Metal", "Lamina" }));
 
         jLabel5.setText("Tono");
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Blanco", "Negro", "Chamoy", "Portland Maple", "Gris Folkstone", "Solar Oak", "Expresso Pear", "" }));
 
         jLabel6.setText("Largo:");
 
@@ -124,20 +122,14 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
 
         jLabel8.setText("Espesor:");
 
-        txtLargo.setText("jTextField1");
-
-        txtAncho.setText("jTextField2");
         txtAncho.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtAnchoActionPerformed(evt);
             }
         });
 
-        txtEspesor.setText("jTextField3");
-
         jLabel9.setText("Cantidad:");
 
-        txtCantidad.setText("jTextField4");
         txtCantidad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCantidadActionPerformed(evt);
@@ -146,15 +138,13 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
 
         jLabel10.setText("Cantos:");
 
-        txtCantos.setText("jTextField5");
-
         jLabel11.setText("Cantos Largos:");
 
-        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2" }));
 
         jLabel12.setText("Cantos cortos:");
 
-        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2" }));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -216,9 +206,9 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
                         .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(19, 19, 19)
                         .addComponent(jLabel11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jComboBox6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(93, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -283,10 +273,10 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(10, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(10, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 175, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(16, 16, 16))
         );
 
         btnAgregar.setText("Agregar");
@@ -354,7 +344,7 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
                                 .addComponent(btnPdf, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnCancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 121, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 5, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -550,7 +540,7 @@ public class listaHabilitacion extends javax.swing.JInternalFrame {
                PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("departamentos.pdf"));
 
                // Configurar encabezado y pie de página
-               frmMantEmpleados.HeaderFooter event = new frmMantEmpleados.HeaderFooter();
+               frmEmpleados.HeaderFooter event = new frmEmpleados.HeaderFooter();
                event.setHeader("Reporte de Departamentos"); // Encabezado general
                writer.setPageEvent(event);
 
