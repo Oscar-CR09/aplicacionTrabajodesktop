@@ -45,11 +45,11 @@ public class frmMenu extends javax.swing.JFrame {
         panelInterno.setLayout(panelInternoLayout);
         panelInternoLayout.setHorizontalGroup(
             panelInternoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 797, Short.MAX_VALUE)
+            .addGap(0, 1075, Short.MAX_VALUE)
         );
         panelInternoLayout.setVerticalGroup(
             panelInternoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 617, Short.MAX_VALUE)
+            .addGap(0, 608, Short.MAX_VALUE)
         );
 
         getContentPane().add(panelInterno);
@@ -64,7 +64,7 @@ public class frmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem1);
 
-        jMenuItem2.setText("Requerimiento");
+        jMenuItem2.setText("Materiales");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);
@@ -72,7 +72,7 @@ public class frmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem2);
 
-        jMenuItem3.setText("Proyectos por Tienda");
+        jMenuItem3.setText("Empleados");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
@@ -80,7 +80,7 @@ public class frmMenu extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem3);
 
-        jMenuItem4.setText("Materiales Especiales");
+        jMenuItem4.setText("Material");
         jMenu1.add(jMenuItem4);
 
         jMenuBar1.add(jMenu1);
@@ -107,9 +107,9 @@ public class frmMenu extends javax.swing.JFrame {
 
     private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
         // TODO add your handling code here:
-        frmListaHabilitacion frmEmplDe = new frmListaHabilitacion();
-        this.panelInterno.add(frmEmplDe);
-        frmEmplDe.setVisible(true);
+        frmMateriales frmMat = new frmMateriales();
+        this.panelInterno.add(frmMat);
+        frmMat.setVisible(true);
     }//GEN-LAST:event_jMenuItem2ActionPerformed
 
     private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
@@ -119,9 +119,9 @@ public class frmMenu extends javax.swing.JFrame {
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
         // TODO add your handling code here:
-        frmMateriales frmNom = new frmMateriales();
-        this.panelInterno.add(frmNom);
-        frmNom.setVisible(true);
+        frmEmpleados frmEmpl = new frmEmpleados();
+        this.panelInterno.add(frmEmpl);
+        frmEmpl.setVisible(true);
         
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
